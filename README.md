@@ -20,6 +20,9 @@ npm install
 
 ## USO
 
-npm start
+   ```bash
+    npm start
 
-node server.js
+
+   ```bash
+    node server.js
