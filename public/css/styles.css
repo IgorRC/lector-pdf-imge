@@ -18,17 +18,40 @@ main {
     padding: 2rem;
 }
 
-input[type="file"] {
-    margin-bottom: 1rem;
-}
 
-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
+/* Estilos para el input de archivo */
+input[type="file"] {
+    display: none; /* Oculta el input de archivo por defecto */
+  }
+  
+  .label-file {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
-}
+  }
+  
+  /* Cambia el estilo del botón cuando el input de archivo tiene un archivo seleccionado */
+  input[type="file"]:not(:focus) + .label-file {
+    background-color: #e74c3c;
+  }
+  
+
+  #ocrButton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+#ocrButton:disabled {
+    background-color: #e0e0e0; /* Cambia el color cuando está deshabilitado */
+    cursor: not-allowed;
+  }
 
 #resultContainer {
     margin-top: 1rem;

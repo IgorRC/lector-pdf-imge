@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto OCR</title>
+    <title>Lector</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Proyecto OCR</h1>
+        <h1>Pasar de Imagen y PDF a Texto</h1>
     </header>
     <main>
-        <input type="file" id="imageInput" accept="image/*">
-        <button id="ocrButton">Aplicar OCR</button>
+        
+        <label for="fileInput" class="label-file">Seleccionar archivo</label>
+        <input type="file" id="fileInput" accept=".pdf, .jpg, .jpeg, .png, .gif" />
+        <br>
+        <span id="fileName"></span> <!-- Nuevo elemento para mostrar el nombre del archivo -->  
+        <br>
+        <button id="ocrButton" disabled>Aplicar OCR</button> <!-- Botón deshabilitado por defecto -->
+        
         <div id="resultContainer">
             <p id="ocrResult"></p>
         </div>
