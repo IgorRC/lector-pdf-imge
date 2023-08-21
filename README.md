@@ -18,13 +18,7 @@ cd nombre-del-repositorio
    ```bash
    npm install
 
-
-   ```bash
-   npm start
-
-   ```bash
-    npm start
-
+3.- Ejecucion del servidor
 
    ```bash
     node server.js
