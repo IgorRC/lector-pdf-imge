@@ -7,7 +7,6 @@ Este es un proyecto de ejemplo para aplicar OCR (Reconocimiento Óptico de Carac
 ## Instalación
 
 1. Clona este repositorio en tu máquina local:
-
    ```bash
    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
    ```
@@ -16,8 +15,8 @@ Este es un proyecto de ejemplo para aplicar OCR (Reconocimiento Óptico de Carac
    ```bash
    npm install
    ```
-3.- Ejecucion del servidor
 
+3.- Ejecucion del servidor
    ```bash
     node server.js
    ```
