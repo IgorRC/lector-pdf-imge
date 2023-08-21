@@ -10,15 +10,14 @@ Este es un proyecto de ejemplo para aplicar OCR (Reconocimiento Óptico de Carac
 
    ```bash
    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-
-
-cd nombre-del-repositorio
+   ```
 
 2.- Instalaciones 
    ```bash
    npm install
-
+   ```
 3.- Ejecucion del servidor
 
    ```bash
     node server.js
+   ```
