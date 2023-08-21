@@ -1,6 +1,4 @@
-# lector-pdf-imge
-
-# OCR Proyecto
+# Pasa de imagen o pdf a texto plano
 
 Este es un proyecto de ejemplo para aplicar OCR (Reconocimiento Óptico de Caracteres) a imágenes y archivos PDF.
 
